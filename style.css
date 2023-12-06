@@ -3,7 +3,7 @@
 :root {
   --bg-body: hsl(0, 0%, 8%);
   --bg-body2: hsl(0, 0%, 14%);
-  --accent: hsl(153, 71%, 59%);
+  --accent: hsl(48, 73%, 55%);
   --text1: hsl(0, 0%, 100%);
   --text2: hsl(0, 0%, 85%);
   --invalid: hsl(7, 100%, 68%);
@@ -40,7 +40,7 @@ body,
 input,
 textarea,
 button {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 body {
@@ -50,6 +50,10 @@ body {
   font-size: var(--fs-18);
   line-height: 1.56;
   padding-bottom: 25rem;
+}
+
+#icon:hover {
+  color: #e0bf38;
 }
 
 .bg-less-dark {
@@ -87,6 +91,10 @@ a {
   transition: color var(--transition);
 }
 
+.logo {
+  width: 80px;
+}
+
 a:focus-visible,
 input:focus-visible,
 textarea:focus-visible {
@@ -112,8 +120,8 @@ button {
   text-decoration: none;
   background-image: linear-gradient(
     to right,
-    var(--accent) 75%,
-    var(--accent) 75%
+    hsl(3.72deg 62.23% 54.31%) 75%,
+    hsl(45.49deg 90.1% 60.39%) 75%
   );
   background-position: 0 2.1em;
   background-repeat: repeat-x;
@@ -121,6 +129,10 @@ button {
 }
 
 a:hover {
+  color: var(--accent);
+}
+
+i:hover {
   color: var(--accent);
 }
 
@@ -228,10 +240,10 @@ svg {
 
 .hero__image {
   position: absolute;
-  top: 0;
+  top: 78px;
   left: 50%;
   translate: -50%;
-  width: 174px;
+  width: 303px;
   height: auto;
 }
 
@@ -269,8 +281,8 @@ svg {
 h1 > span {
   background-image: linear-gradient(
     to right,
-    var(--accent) 75%,
-    var(--accent) 75%
+    hsl(3.72deg 62.23% 54.31%) 75%,
+    hsl(45.49deg 90.1% 60.39%) 75%
   );
   background-position: 0 1.18em;
   background-repeat: repeat-x;
@@ -587,7 +599,7 @@ h1 > span {
   }
 
   .projects__picture::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
