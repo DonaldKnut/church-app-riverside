@@ -46,6 +46,7 @@ button {
 body {
   margin: 0;
   background-color: var(--bg-body);
+  /* background: linear-gradient(340deg, rgb(179, 156, 23), rgb(22, 68, 109)); */
   color: var(--text1);
   font-size: var(--fs-18);
   line-height: 1.56;
@@ -649,6 +650,10 @@ h1 > span {
 }
 
 /* CONTACT */
+
+/* #contact {
+  background: linear-gradient(140deg, rgb(179, 156, 23), rgb(22, 68, 109));
+} */
 
 .contact {
   position: relative;

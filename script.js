@@ -2,6 +2,8 @@ const textElement = document.querySelector(".hero__headline");
 const textContent = textElement.textContent;
 textElement.innerHTML = "";
 
+// bg-less-dark
+
 function typeWriterEffect() {
   let charIndex = 0;
   const timer = setInterval(() => {
